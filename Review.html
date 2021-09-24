@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Review</title>
+  <link rel="stylesheet" href="reviewcss.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:ital,wght@1,200&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="head1">
+      <h3 style="color: white; text-align: center; background-color: #FF7878; padding: 20px 0 20px 0; margin: 0 300px 20px 300px;">Welcome to Review Section</h3>
+    </div>
+    <div>
+    <a href="#Tables">Info. Tab</a>
+    <a href="#Objectives">Objectives</a>
+    <a href="#Event_Details">Event Info</a>
+    <a href="#Complains">Complaint</a>
+  </div>
+  </header>
+  <aside>
+    <h3>List of Contributers who helped us succeed:</h3><br>
+    <ul>
+      <li class="asides">Ayush Lodh</li>
+      <li class="asides">Dr. Mary Mekala A.</li>
+    </ul>
+  </aside>
+  <main>
+    <h2 id="Tables">Presenting to You the Timings of Carnival</h2>
+    <table border="1">
+      <tr style="background-color: #FFDEDE; color: black;">
+        <th>Day</th>
+        <th>Timings</th>
+        <th>Event Details</th>
+      </tr>
+      <tr>
+        <td>Saturday 25-09-2021</td>
+        <td>10am till 8pm</td>
+        <td>
+          10$ - entry <br>
+          5$ - playground access <br>
+          1$ - singing contest <br>
+          3$ - create-o-fun
+        </td>
+      </tr>
+      <tr>
+        <td>Sunday 26-09-2021</td>
+        <td>10am till 8pm</td>
+        <td>
+          10$ - entry <br>
+          5$ - playground access <br>
+          1$ - singing contest <br>
+          3$ - create-o-fun
+        </td>
+      </tr>
+      <tr>
+        <td>Monday 27-09-2021</td>
+        <td>10 am till 8pm</td>
+        <td>
+          10$ - entry <br>
+          5$ - playground access <br>
+          1$ - singing contest <br>
+          3$ - create-o-fun
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="obj">
+  <h2 id="Objectives">Objectives of organising this event</h2>
+  <ul id="obje">
+    <li class="listtype">To grant your child an oppertunity to learn and have fun</li>
+    <li class="listtype">This will help them enrich their creative skills</li>
+    <li class="listtype">Build Friendships and Learn Social Skills</li>
+    <li class="listtype">Improved Decision-Making Skills</li>
+    <li class="listtype">Improved Communication Skills</li>
+  </ul>
+</div>
+  <div id="Event_Details">
+  <h2>How the Event went by last year:</h2>
+  <iframe src="https://www.youtube.com/watch?v=CG__N4SS1Fc" width="560" height="315" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+  <audio controls>
+    <source src="Audio/od1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element
+  </audio>
+  </div>
+  <div id="Complains">
+  <h2>For any Complains plz fill out the below form</h2>
+  <form class="" action="index.html" method="post">
+    <fieldset>
+      <legend>Complains form</legend>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname"><br>
+      <label for="gender">Gender: </label>
+      <input type="radio" name="gender" value="male" id="male">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">Female</label><br>
+      How do you rate this website <br>
+      <select class="" name="rating">
+        <option value="-1" selected>Select any one</option>
+        <option value="1">Nice</option>
+        <option value="2">Good</option>
+        <option value="3">Average</option>
+        <option value="4">Bad</option>
+        <option value="5">Worst</option>
+      </select><br>
+      Have something in mind let us know: <br>
+      <textarea name="comments" rows="5" cols="30">Put you text here</textarea><br>
+    </fieldset>
+    Thank You for your valuable time: <br>
+    <input type="submit" name="send" value="Submit">
+    <input type="reset" name="rst" value="Reset"><br>
+  </form>
+  </div>
+  </main>
+  <footer>
+    <p>
+    This webpage was built as a part of Continous Assessment Test of Internet and Web programming<br />
+    Ayush Lodh 19BCE2553
+    </p>
+</footer>
+</body>
+</html>

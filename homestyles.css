@@ -1,0 +1,126 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', 'French Script MT', serif;
+  font-size: 16px;
+}
+header {
+  text-align: left;
+  padding: 0 5px 15px 5px;
+  background: linear-gradient(to right, #D5EEBB, #7FC8A9);
+}
+.head1 {
+  text-align: center;
+  margin: 0 300px 0 300px;
+  border-radius: 5%;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', 'Brush Script MT', cursive;
+  font-size: 46px;
+  color: #CD113B;
+  line-height: 2;
+}
+p {
+  line-height: 2;
+}
+#p1 {
+  font-size: 16px;
+  margin: 0 auto 10px auto;
+  font-weight: normal;
+  color: #CD113B;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+h3 {
+  color: #11999E;
+  font-size: 19px;
+}
+a {
+  color: #170055;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 50px;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+}
+hr {
+  background-color: #71EFA3;
+  margin: 0 auto;
+  border-style: dotted none none;
+  border-color: white;
+  border-width: 7px;
+  width: 10%;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  display: block;
+}
+.pic1 {
+  padding-top: 35px;
+  height: 250px;
+  width: 450px;
+}
+.pic2 {
+  margin-right: 30px;
+  height: 40%;
+  width: 50%;
+}
+.pic3 {
+  height: 40%;
+  width: 40%;
+}
+.pic4 {
+  height: 40%;
+  width: 40%;
+}
+.div1 {
+  background-color: #78DEC7;
+   position: relative;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.ss {
+  font-size: 12px;
+}
+.ss1 {
+  font-size: 12px;
+}
+.middle-container {
+  padding-top: 50px;
+  background-color: #71EFA3;
+  padding-bottom: 10px;
+}
+footer {
+  margin: 0;
+  padding-top: 20px;
+  background-color: #7DEDFF;
+}
+.intro {
+  width: 30%;
+  margin: 3px auto 2px auto;
+  color: #FF3D68;
+}
+#profile {
+  padding-bottom: 20px;
+}
+.last {
+  background-color: #7DEDFF;
+  margin: 0 auto;
+  border-style: dotted none none;
+  border-color: white;
+  border-width: 7px;
+  padding-bottom: 15px;
+  width: 10%;
+}
+.contact-me {
+  width: 40%;
+  margin: 40px auto 10px;
+}
